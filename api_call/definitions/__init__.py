@@ -1,2 +1,2 @@
-from .ftp_api_definition import api_list
-from .ftp_api_definition import ftp_project
+from .api_definition import api_list
+from .project_definition import definition

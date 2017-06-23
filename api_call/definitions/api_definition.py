@@ -1,4 +1,4 @@
-ftp_api_list = [
+api_list = [
     {
         "id" : 1,
         "api_partial_path" : "/commons/tenant/:hash_string/",
