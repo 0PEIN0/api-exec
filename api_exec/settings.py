@@ -118,3 +118,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+#CUSTOM SECTION(START)
+HASH_STRING=''
+try:
+    from .local_settings import *
+except ImportError:
+    print('Local settings file was not loaded.')
+#CUSTOM SECTION(END)
