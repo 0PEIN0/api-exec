@@ -121,6 +121,13 @@ STATIC_URL = '/static/'
 
 
 #CUSTOM SECTION(START)
+PROJECT_APPS=[
+'api',
+'core',
+'project',
+'request',
+]
+INSTALLED_APPS = PROJECT_APPS+INSTALLED_APPS
 HASH_STRING=''
 try:
     from .local_settings import *
